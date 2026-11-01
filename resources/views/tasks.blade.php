@@ -21,7 +21,7 @@
 <body>
 <main>
     <h1>Mes tâches</h1>
-    <p>Une application Laravel et MySQL sur cPanel.</p>
+    <p>Mise à jour déployée avec Git et cPanel.</p>
 
     <form method="post" action="/tasks">
         @csrf

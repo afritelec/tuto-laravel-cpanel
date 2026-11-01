@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - composer install --no-dev --optimize-autoloader --no-interaction
+    - php artisan migrate --force
+    - php artisan optimize
